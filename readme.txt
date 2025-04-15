@@ -1,0 +1,1 @@
+需要编写完成的是lex.l,main.c,main.h,yacc.y，其余会自动生成没有采用批处理，同一目录下终端执行bison -dv yacc.yflex lex.lgcc -o parser main.c yacc.tab.c lex.yy.c.\parser.exe然后把数据粘进来暂时处理不了注释需要自行更改配置
